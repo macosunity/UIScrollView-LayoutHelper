@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7D7F731D77D97E0095C89C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7D7F721D77D97E0095C89C /* main.m */; };
+		EF7D7F761D77D97E0095C89C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7D7F751D77D97E0095C89C /* AppDelegate.m */; };
+		EF7D7F791D77D97E0095C89C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7D7F781D77D97E0095C89C /* ViewController.m */; };
+		EF7D7F7C1D77D97E0095C89C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7F7A1D77D97E0095C89C /* Main.storyboard */; };
+		EF7D7F7E1D77D97E0095C89C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7F7D1D77D97E0095C89C /* Assets.xcassets */; };
+		EF7D7F811D77D97E0095C89C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7F7F1D77D97E0095C89C /* LaunchScreen.storyboard */; };
+		EF7D7F8C1D77D97F0095C89C /* UIScrollView_LayoutHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7D7F8B1D77D97F0095C89C /* UIScrollView_LayoutHelperTests.m */; };
+		EF7D7F971D77D97F0095C89C /* UIScrollView_LayoutHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7D7F961D77D97F0095C89C /* UIScrollView_LayoutHelperUITests.m */; };
+		EF7D7FA61D77D98F0095C89C /* UIScrollView+LayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7D7FA51D77D98F0095C89C /* UIScrollView+LayoutHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7D7F881D77D97F0095C89C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7D7F661D77D97E0095C89C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7D7F6D1D77D97E0095C89C;
+			remoteInfo = "UIScrollView+LayoutHelper";
+		};
+		EF7D7F931D77D97F0095C89C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7D7F661D77D97E0095C89C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7D7F6D1D77D97E0095C89C;
+			remoteInfo = "UIScrollView+LayoutHelper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF7D7F6E1D77D97E0095C89C /* UIScrollView+LayoutHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIScrollView+LayoutHelper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7D7F721D77D97E0095C89C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7D7F741D77D97E0095C89C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7D7F751D77D97E0095C89C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF7D7F771D77D97E0095C89C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF7D7F781D77D97E0095C89C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF7D7F7B1D77D97E0095C89C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7D7F7D1D77D97E0095C89C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7D7F801D77D97E0095C89C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7D7F821D77D97E0095C89C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7D7F871D77D97F0095C89C /* UIScrollView+LayoutHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView+LayoutHelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7D7F8B1D77D97F0095C89C /* UIScrollView_LayoutHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_LayoutHelperTests.m; sourceTree = "<group>"; };
+		EF7D7F8D1D77D97F0095C89C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7D7F921D77D97F0095C89C /* UIScrollView+LayoutHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView+LayoutHelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7D7F961D77D97F0095C89C /* UIScrollView_LayoutHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_LayoutHelperUITests.m; sourceTree = "<group>"; };
+		EF7D7F981D77D97F0095C89C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7D7FA41D77D98F0095C89C /* UIScrollView+LayoutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LayoutHelper.h"; sourceTree = "<group>"; };
+		EF7D7FA51D77D98F0095C89C /* UIScrollView+LayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LayoutHelper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7D7F6B1D77D97E0095C89C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D7F841D77D97F0095C89C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D7F8F1D77D97F0095C89C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7D7F651D77D97E0095C89C = {
+			isa = PBXGroup;
+			children = (
+				EF7D7F701D77D97E0095C89C /* UIScrollView+LayoutHelper */,
+				EF7D7F8A1D77D97F0095C89C /* UIScrollView+LayoutHelperTests */,
+				EF7D7F951D77D97F0095C89C /* UIScrollView+LayoutHelperUITests */,
+				EF7D7F6F1D77D97E0095C89C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7D7F6F1D77D97E0095C89C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D7F6E1D77D97E0095C89C /* UIScrollView+LayoutHelper.app */,
+				EF7D7F871D77D97F0095C89C /* UIScrollView+LayoutHelperTests.xctest */,
+				EF7D7F921D77D97F0095C89C /* UIScrollView+LayoutHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7D7F701D77D97E0095C89C /* UIScrollView+LayoutHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D7F741D77D97E0095C89C /* AppDelegate.h */,
+				EF7D7F751D77D97E0095C89C /* AppDelegate.m */,
+				EF7D7F771D77D97E0095C89C /* ViewController.h */,
+				EF7D7F781D77D97E0095C89C /* ViewController.m */,
+				EF7D7FA41D77D98F0095C89C /* UIScrollView+LayoutHelper.h */,
+				EF7D7FA51D77D98F0095C89C /* UIScrollView+LayoutHelper.m */,
+				EF7D7F7A1D77D97E0095C89C /* Main.storyboard */,
+				EF7D7F7D1D77D97E0095C89C /* Assets.xcassets */,
+				EF7D7F7F1D77D97E0095C89C /* LaunchScreen.storyboard */,
+				EF7D7F821D77D97E0095C89C /* Info.plist */,
+				EF7D7F711D77D97E0095C89C /* Supporting Files */,
+			);
+			path = "UIScrollView+LayoutHelper";
+			sourceTree = "<group>";
+		};
+		EF7D7F711D77D97E0095C89C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D7F721D77D97E0095C89C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7D7F8A1D77D97F0095C89C /* UIScrollView+LayoutHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D7F8B1D77D97F0095C89C /* UIScrollView_LayoutHelperTests.m */,
+				EF7D7F8D1D77D97F0095C89C /* Info.plist */,
+			);
+			path = "UIScrollView+LayoutHelperTests";
+			sourceTree = "<group>";
+		};
+		EF7D7F951D77D97F0095C89C /* UIScrollView+LayoutHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D7F961D77D97F0095C89C /* UIScrollView_LayoutHelperUITests.m */,
+				EF7D7F981D77D97F0095C89C /* Info.plist */,
+			);
+			path = "UIScrollView+LayoutHelperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7D7F6D1D77D97E0095C89C /* UIScrollView+LayoutHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7D7F9B1D77D97F0095C89C /* Build configuration list for PBXNativeTarget "UIScrollView+LayoutHelper" */;
+			buildPhases = (
+				EF7D7F6A1D77D97E0095C89C /* Sources */,
+				EF7D7F6B1D77D97E0095C89C /* Frameworks */,
+				EF7D7F6C1D77D97E0095C89C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIScrollView+LayoutHelper";
+			productName = "UIScrollView+LayoutHelper";
+			productReference = EF7D7F6E1D77D97E0095C89C /* UIScrollView+LayoutHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7D7F861D77D97F0095C89C /* UIScrollView+LayoutHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7D7F9E1D77D97F0095C89C /* Build configuration list for PBXNativeTarget "UIScrollView+LayoutHelperTests" */;
+			buildPhases = (
+				EF7D7F831D77D97F0095C89C /* Sources */,
+				EF7D7F841D77D97F0095C89C /* Frameworks */,
+				EF7D7F851D77D97F0095C89C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7D7F891D77D97F0095C89C /* PBXTargetDependency */,
+			);
+			name = "UIScrollView+LayoutHelperTests";
+			productName = "UIScrollView+LayoutHelperTests";
+			productReference = EF7D7F871D77D97F0095C89C /* UIScrollView+LayoutHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7D7F911D77D97F0095C89C /* UIScrollView+LayoutHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7D7FA11D77D97F0095C89C /* Build configuration list for PBXNativeTarget "UIScrollView+LayoutHelperUITests" */;
+			buildPhases = (
+				EF7D7F8E1D77D97F0095C89C /* Sources */,
+				EF7D7F8F1D77D97F0095C89C /* Frameworks */,
+				EF7D7F901D77D97F0095C89C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7D7F941D77D97F0095C89C /* PBXTargetDependency */,
+			);
+			name = "UIScrollView+LayoutHelperUITests";
+			productName = "UIScrollView+LayoutHelperUITests";
+			productReference = EF7D7F921D77D97F0095C89C /* UIScrollView+LayoutHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7D7F661D77D97E0095C89C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王亮";
+				TargetAttributes = {
+					EF7D7F6D1D77D97E0095C89C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF7D7F861D77D97F0095C89C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF7D7F6D1D77D97E0095C89C;
+					};
+					EF7D7F911D77D97F0095C89C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF7D7F6D1D77D97E0095C89C;
+					};
+				};
+			};
+			buildConfigurationList = EF7D7F691D77D97E0095C89C /* Build configuration list for PBXProject "UIScrollView+LayoutHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7D7F651D77D97E0095C89C;
+			productRefGroup = EF7D7F6F1D77D97E0095C89C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7D7F6D1D77D97E0095C89C /* UIScrollView+LayoutHelper */,
+				EF7D7F861D77D97F0095C89C /* UIScrollView+LayoutHelperTests */,
+				EF7D7F911D77D97F0095C89C /* UIScrollView+LayoutHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7D7F6C1D77D97E0095C89C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7D7F811D77D97E0095C89C /* LaunchScreen.storyboard in Resources */,
+				EF7D7F7E1D77D97E0095C89C /* Assets.xcassets in Resources */,
+				EF7D7F7C1D77D97E0095C89C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D7F851D77D97F0095C89C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D7F901D77D97F0095C89C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7D7F6A1D77D97E0095C89C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7D7F791D77D97E0095C89C /* ViewController.m in Sources */,
+				EF7D7F761D77D97E0095C89C /* AppDelegate.m in Sources */,
+				EF7D7F731D77D97E0095C89C /* main.m in Sources */,
+				EF7D7FA61D77D98F0095C89C /* UIScrollView+LayoutHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D7F831D77D97F0095C89C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7D7F8C1D77D97F0095C89C /* UIScrollView_LayoutHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D7F8E1D77D97F0095C89C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7D7F971D77D97F0095C89C /* UIScrollView_LayoutHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7D7F891D77D97F0095C89C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7D7F6D1D77D97E0095C89C /* UIScrollView+LayoutHelper */;
+			targetProxy = EF7D7F881D77D97F0095C89C /* PBXContainerItemProxy */;
+		};
+		EF7D7F941D77D97F0095C89C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7D7F6D1D77D97E0095C89C /* UIScrollView+LayoutHelper */;
+			targetProxy = EF7D7F931D77D97F0095C89C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF7D7F7A1D77D97E0095C89C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7D7F7B1D77D97E0095C89C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7D7F7F1D77D97E0095C89C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7D7F801D77D97E0095C89C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7D7F991D77D97F0095C89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF7D7F9A1D77D97F0095C89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7D7F9C1D77D97F0095C89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIScrollView+LayoutHelper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.demo.UIScrollView-LayoutHelper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7D7F9D1D77D97F0095C89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIScrollView+LayoutHelper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.demo.UIScrollView-LayoutHelper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7D7F9F1D77D97F0095C89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIScrollView+LayoutHelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.demo.UIScrollView-LayoutHelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView+LayoutHelper.app/UIScrollView+LayoutHelper";
+			};
+			name = Debug;
+		};
+		EF7D7FA01D77D97F0095C89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIScrollView+LayoutHelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.demo.UIScrollView-LayoutHelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView+LayoutHelper.app/UIScrollView+LayoutHelper";
+			};
+			name = Release;
+		};
+		EF7D7FA21D77D97F0095C89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIScrollView+LayoutHelperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.demo.UIScrollView-LayoutHelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIScrollView+LayoutHelper";
+			};
+			name = Debug;
+		};
+		EF7D7FA31D77D97F0095C89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIScrollView+LayoutHelperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.demo.UIScrollView-LayoutHelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIScrollView+LayoutHelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7D7F691D77D97E0095C89C /* Build configuration list for PBXProject "UIScrollView+LayoutHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7D7F991D77D97F0095C89C /* Debug */,
+				EF7D7F9A1D77D97F0095C89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7D7F9B1D77D97F0095C89C /* Build configuration list for PBXNativeTarget "UIScrollView+LayoutHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7D7F9C1D77D97F0095C89C /* Debug */,
+				EF7D7F9D1D77D97F0095C89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF7D7F9E1D77D97F0095C89C /* Build configuration list for PBXNativeTarget "UIScrollView+LayoutHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7D7F9F1D77D97F0095C89C /* Debug */,
+				EF7D7FA01D77D97F0095C89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF7D7FA11D77D97F0095C89C /* Build configuration list for PBXNativeTarget "UIScrollView+LayoutHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7D7FA21D77D97F0095C89C /* Debug */,
+				EF7D7FA31D77D97F0095C89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7D7F661D77D97E0095C89C /* Project object */;
+}
