@@ -10,7 +10,7 @@
 
 @implementation UIScrollView(LayoutHelper)
 
-+ (void)setupScrollView:(UIScrollView *)scrollView withSubViews:(NSArray *)subviewsArray isVertical:(BOOL)isVertical {
++ (void)layoutScrollView:(UIScrollView *)scrollView withSubViews:(NSArray *)subviewsArray isVertical:(BOOL)isVertical {
     
     NSDictionary *firstViewInfoDict = (NSDictionary *)[subviewsArray firstObject];
     UIView *firstView = (UIView *)firstViewInfoDict[@"view"];
@@ -52,9 +52,7 @@
     subviewsArray = nil;
 }
 
-+ (void)relayoutScrollView:(UIScrollView *)scrollView
-              withSubViews:(NSArray *)subviewsArray
-                isVertical:(BOOL)isVertical {
++ (void)relayoutScrollView:(UIScrollView *)scrollView withSubViews:(NSArray *)subviewsArray isVertical:(BOOL)isVertical {
     
     NSDictionary *firstViewInfoDict = (NSDictionary *)[subviewsArray firstObject];
     UIView *firstView = (UIView *)firstViewInfoDict[@"view"];

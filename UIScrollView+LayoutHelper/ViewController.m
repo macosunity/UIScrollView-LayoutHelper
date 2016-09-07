@@ -41,10 +41,10 @@
         
         [hSubviewsArray addObject:@{ @"view": lbl, @"padding" : (i==0?@(0):@(5)) }];
     }
-    [UIScrollView setupScrollView:horizontalScrollView withSubViews:hSubviewsArray isVertical:NO];
+    [UIScrollView layoutScrollView:horizontalScrollView withSubViews:hSubviewsArray isVertical:NO];
 
 
-    [UIScrollView setupScrollView:verticalScrollView withSubViews:vSubviewsArray isVertical:YES];
+    [UIScrollView layoutScrollView:verticalScrollView withSubViews:vSubviewsArray isVertical:YES];
 }
 
 - (void)didReceiveMemoryWarning {

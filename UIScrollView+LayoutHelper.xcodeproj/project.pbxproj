@@ -422,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UIScrollView+LayoutHelper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.demo.UIScrollView-LayoutHelper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UIScrollView+LayoutHelper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.demo.UIScrollView-LayoutHelper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -504,6 +506,7 @@
 				EF7D7F9D1D77D97F0095C89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF7D7F9E1D77D97F0095C89C /* Build configuration list for PBXNativeTarget "UIScrollView+LayoutHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +515,7 @@
 				EF7D7FA01D77D97F0095C89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF7D7FA11D77D97F0095C89C /* Build configuration list for PBXNativeTarget "UIScrollView+LayoutHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +524,7 @@
 				EF7D7FA31D77D97F0095C89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
